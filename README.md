@@ -2,46 +2,39 @@
 
 Sistema de cadastro e gerenciamento de pets desenvolvido em linguagem C.
 
-O projeto tem como objetivo auxiliar pequenos estabelecimentos como pet shops e clínicas veterinárias no controle de informações de animais e seus tutores, permitindo realizar operações de cadastro, consulta, edição e exclusão de registros.
+## Sobre o Projeto
 
----
+Este projeto tem como objetivo organizar informações de pets e seus tutores em um sistema simples de gerenciamento.
 
-## 📌 Sobre o Projeto
+O sistema permite cadastrar, consultar, editar e excluir registros utilizando o conceito CRUD.
 
-Na rotina de um pet shop, organizar informações de clientes e animais é essencial para agilizar atendimentos e evitar problemas como perda de dados, registros duplicados ou dificuldade na localização de informações.
+## Funcionalidades
 
-Este sistema foi desenvolvido utilizando o conceito CRUD:
+- Cadastro de pets
+- Listagem de registros
+- Busca por CPF do tutor
+- Edição de informações
+- Exclusão de registros
+- Validação de CPF
 
-- Create (Cadastrar)
-- Read (Consultar/Listar)
-- Update (Editar)
-- Delete (Excluir)
-
-Além disso, possui busca de registros utilizando o CPF do tutor como identificador.
-
----
-
-## 🚀 Funcionalidades
-
-✔ Cadastro de pets  
-✔ Cadastro de informações do tutor  
-✔ Listagem de registros cadastrados  
-✔ Busca de pets pelo CPF do tutor  
-✔ Edição de informações  
-✔ Exclusão de registros  
-✔ Validação do CPF com 11 dígitos  
-
----
-
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias
 
 - Linguagem C
-- Estruturas (`struct`)
+- Structs
 - Vetores
 - Funções
-- Estruturas de repetição e decisão
 - GCC Compiler
 
----
+## Estrutura do Projeto
 
-## 📂 Estrutura do Projeto
+petshop-manager-c
+
+├── src
+│   └── main.c
+
+├── docs
+│   └── Project_Report.pdf
+
+├── images
+
+└── README.md
